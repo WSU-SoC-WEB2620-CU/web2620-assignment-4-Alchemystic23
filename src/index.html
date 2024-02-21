@@ -3,14 +3,233 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Project Starter</title>
+  <title>Flexbox and Grid</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
 
 <body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
+<header>Marketing Site</header>
+
+<nav>
+  <ul>
+    <li><a href='#1'>One</a></li>
+    <li><a href='#2'>Two</a></li>
+    <li><a href='#3'>Three</a></li>
+    <li><a href='#4'>Four</a></li>
+    <li><a href='#5'>Five</a></li>
+    <li><a href='#6'>Six</a></li>
+  </ul>
+</nav>
+
+<div class="featured">
+<div class="jumbotron">
+  <h1>Jumbotron</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, animi repellendus quisquam maiores adipisci veniam dolor itaque possimus ipsam sapiente eveniet repudiandae at est modi architecto vel impedit blanditiis quo!</p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum tempore vitae accusamus repellat eum tenetur, deserunt sit autem veniam fugit nobis excepturi fugiat eius quam soluta minus eligendi cupiditate aut.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus veniam voluptas corrupti laboriosam ad fugiat quasi sed provident minima ut eum placeat consequatur, aut ipsam voluptates optio corporis assumenda possimus.</p>
+
+  <button>Learn more</button>
+</div>
+
+<form class="aside" id="login">
+  <!-- Username -->
+  <label for="username">Username</label>
+  <input type="text" name="username" id="username">
+
+  <!-- Password -->
+  <label for="password">Password</label>
+  <input type="text" name="password" id="password">
+
+  <!-- Button -->
+  <button type="submit">Login</button>
+</form>
+
+
+
+<div class="aside" id="pricing">
+<span> Plans Starting</span>
+<span>$29.99</span>
+<button>Subscribe Now!</button>
+</div>
+</div>
+
+
+<!-- <h1 class="head1">Our Newest Products</h1> -->
+
+
+<!-- 4 Cards -->
+<main class="newest">
+
+  <h1 class="head1">Our Newest Products</h1> 
+
+  <!-- First -->
+  <article class="prod1" id="newprod">
+    <img src="images/product.jpg" alt="electronics" class="image1"> <!-- 300 x 400-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+
+  <!-- Second -->
+  <article class="prod2" id="newprod">
+    <img src="images/product.jpg" alt="electronics" class="image1"> <!-- 300 x 400-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+
+  <!-- Third -->
+  <article class="prod3" id="newprod">
+    <img src="images/product.jpg" alt="electronics" class="image1">  <!-- 300 x 400-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+
+  <!-- Fourth --> 
+  <article class="prod4" id="newprod">
+    <img src="images/product.jpg" alt="electronics" class="image1">  <!-- 300 x 400-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+
+</main> <!-- End class: newest-->
+
+
+<!-- 6 More Cards -->
+<main class="neat">
+  <h2 class="head2">Really big Special this week on items.</h2>
+
+<h1 class="head3">Some Other Neat Products</h1>
+
+  <!-- First -->
+  <article class="prod1" id="neatprod">
+    <img src="images/product.jpg" alt="electronics" class="image2"> <!-- 200 X 300?-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+
+  <!-- Second -->
+  <article class="prod2" id="neatprod">
+    <img src="images/product.jpg" alt="electronics" class="image2">  <!-- 200 X 300?-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+
+  <!-- Third -->
+  <article class="prod3" id="neatprod">
+    <img src="images/product.jpg" alt="electronics" class="image2">  <!-- 200 X 300?-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+
+  <!-- Fourth -->
+  <article class="prod4" id="neatprod">
+    <img src="images/product.jpg" alt="electronics" class="image2">  <!-- 200 X 300?-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+
+  <!-- Fifth -->
+  <article class="prod5" id="neatprod">
+    <img src="images/product.jpg" alt="electronics" class="image2">  <!-- 200 X 300?-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+
+  <!-- Sixth -->
+  <article class="prod6" id="neatprod">
+    <img src="images/product.jpg" alt="electronics" class="image2">  <!-- 200 X 300?-->
+    <p>Nulla At Nulla Justo, Eget</p>
+    <p>$400</p>
+    <button>Buy Now!</button>
+  </article>
+</main> <!-- End class:neat-->
+
+ <main class="top">
+
+  <h1 class="head1">Top Products</h1>
+  <!--Col 1-->
+  <article class="prod1" id="topprod">
+    <img src="images/product.jpg" alt="electronics" class="image3">  <!-- 100 X 100?-->
+    <div class="text">
+      <h3>Nunc Eu Ullamcorper Orci</h3>
+      <p>Minima officia quidem voluptatem at, animi facere corrupti harum</p>
+    </div>
+  </article>
+  <article class="prod2" id="topprod">
+    <img src="images/product.jpg" alt="electronics" class="image3"> <!-- 100 X 100?-->
+    <div class="text">
+      <h3>Nunc Eu Ullamcorper Orci</h3>
+      <p>Minima officia quidem voluptatem at, animi facere corrupti harum</p>
+    </div>
+  </article>
+  <article class="prod3" id="topprod">
+    <img src="images/product.jpg" alt="electronics" class="image3"> <!-- 100 X 100?-->
+    <div class="text">
+      <h3>Nunc Eu Ullamcorper Orci</h3>
+      <p>Minima officia quidem voluptatem at, animi facere corrupti harum</p>
+    </div>
+  </article>
+
+  <h1 class="head2">Top Products</h1>
+  <!-- Col 2-->
+  <article class="prod4" id="topprod">
+    <img src="images/product.jpg" alt="electronics" class="image3"> <!-- 100 X 100?-->
+    <div class="text">
+      <h3>Nunc Eu Ullamcorper Orci</h3>
+      <p>Minima officia quidem voluptatem at, animi facere corrupti harum</p>
+    </div>
+  </article>
+  <article class="prod5" id="topprod">
+    <img src="images/product.jpg" alt="electronics" class="image3"> <!-- 100 X 100?-->
+    <div class="text">
+      <h3>Nunc Eu Ullamcorper Orci</h3>
+      <p>Minima officia quidem voluptatem at, animi facere corrupti harum</p>
+    </div>
+  </article>
+  <article class="prod6" id="topprod">
+    <img src="images/product.jpg" alt="electronics" class="image3"> <!-- 100 X 100?-->
+    <div class="text">
+      <h3>Nunc Eu Ullamcorper Orci</h3>
+      <p>Minima officia quidem voluptatem at, animi facere corrupti harum</p>
+    </div>
+  </article>
+
+  <h1 class="head3">Top Products</h1>
+  <!-- Col 3 -->
+  <article class="prod7" id="topprod">
+    <img src="images/product.jpg" alt="electronics" class="image3"> <!-- 100 X 100?-->
+    <div class="text">
+      <h3>Nunc Eu Ullamcorper Orci</h3>
+      <p>Minima officia quidem voluptatem at, animi facere corrupti harum</p>
+    </div>
+  </article>
+  <article class="prod8" id="topprod">
+    <img src="images/product.jpg" alt="electronics" class="image3"> <!-- 100 X 100?-->
+    <div class="text">
+      <h3>Nunc Eu Ullamcorper Orci</h3>
+      <p>Minima officia quidem voluptatem at, animi facere corrupti harum</p>
+    </div>
+  </article>
+  <article class="prod9" id="topprod">
+    <img src="images/product.jpg" alt="electronics" class="image3"> <!-- 100 X 100?-->
+    <div class="text">
+      <h3>Nunc Eu Ullamcorper Orci</h3>
+      <p>Minima officia quidem voluptatem at, animi facere corrupti harum</p>
+    </div>
+  </article>
+
+ </main> <!--End class: topprod-->
+
+
 <script type="module" src="./javascripts/main.js"></script>
 </body>
 </html>
